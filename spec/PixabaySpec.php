@@ -2,6 +2,7 @@
 
 namespace spec\Tlab;
 
+use Tlab\Constants\Categories;
 use Tlab\Exceptions\NotValidCategoryException;
 use Tlab\Pixabay;
 use PhpSpec\ObjectBehavior;
@@ -21,7 +22,7 @@ class PixabaySpec extends ObjectBehavior
 
     function it_should_call_category_and_receive_same_object()
     {
-        $result = $this->category('nature');
+        $result = $this->category(Categories::ANIMALS);
 
         $result->shouldHaveType(Pixabay::class);
     }
