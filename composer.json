@@ -2,5 +2,17 @@
     "name": "tuxonice/pixabay",
     "type": "library",
     "license": "MIT",
-    "require": {}
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "Tlab\\": "src/"
+        }
+    },
+    
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
 }
