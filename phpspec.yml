@@ -1,0 +1,8 @@
+suites:
+    suite:
+        namespace: Tlab
+        psr4_prefix: Tlab
+        src_path: src
+        spec_prefix: spec
+
+formatter.name: pretty

@@ -9,10 +9,13 @@
             "Tlab\\": "src/"
         }
     },
-    
+
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/"
         }
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^3.2"
     }
 }
